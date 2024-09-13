@@ -9,7 +9,7 @@ public static void main(String[] args) {
     
     
 
-        for (int a = 1; a <= 3;) {
+      try {  for(int a = 1; a <= 3;) {
         
             int senha = 12345;
         
@@ -39,8 +39,27 @@ public static void main(String[] args) {
 
             }
             
-            }
+         
+        
         }
+        scnSenha.close();    
+   
+
+    }
+    catch (java.util.InputMismatchException e) {
+
+
+        System.out.println("A senha precisa ser numerica");
+
+           
+    }
+   
+   
+   
+    
+    
+    
+    }
 
    
 }
