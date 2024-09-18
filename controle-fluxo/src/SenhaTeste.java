@@ -49,7 +49,7 @@ public static void main(String[] args) {
     catch (java.util.InputMismatchException e) {
 
 
-        System.out.println("A senha precisa ser numerica");
+        System.out.println("ERRO, A senha precisa ser numerica");
 
            
     }
